@@ -1,0 +1,28 @@
+site_name: Hand Tracking Tool
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.keys
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+
+
+nav:
+  - Home : 'index.md'
+  - Requirements : 'requirements.md'
+  - Recording : 'recording.md'
+  - Getting Started : 'start.md'
+  - Processing Videos : 'processing.md'
+  - Results : 'results.md'
+
