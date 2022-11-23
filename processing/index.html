@@ -456,7 +456,7 @@
 <p>Processing a video can be achieved following these steps: </p>
 <h3 id="1-load-a-valid-video-file">1. Load a valid video file:</h3>
 <dl>
-<dd>Click <strong>Load Video</strong> and select an appropiate video file</dd>
+<dd>Click <strong>Load Video</strong> and select a video file</dd>
 </dl>
 <h3 id="2-select-the-area-of-the-video-that-contains-the-hand-s">2. Select the area of the video that contains the hand (s)</h3>
 <dl>
@@ -465,7 +465,7 @@
 <p>The Hand Tracking Tool allows you to select an area of the video where the algorithm can easily find the hands for processing. To select an area, simply click anywhere in the video and drag you mouse, a red rectangle will appear demarking the selected area. You can only select one area for the video.</p>
 <p>Next, we discuss a few scenarios demonstrating the use of the area selection tool:</p>
 <h5 id="a-more-than-one-person-in-the-frame">a. More than one person in the frame:</h5>
-<p>Often, the video frames contain the subject and the clinician performing the evaluation. In that case, the area selection tool can be used to select the portion of the video containing the subjects' hands as shown in the following images</p>
+<p>Often, the video frames contain the subject and the clinician performing the evaluation. In that case, the area selection tool can be used to select the region of the video containing the subjects' hands as shown in the following images</p>
 <p><img alt="No selection" src="../no-selection.png" width="400" /> <img alt="Yes selection" src="../yes-selection.png" width="400" /></p>
 <h5 id="b-select-a-single-hand">b. Select a single hand</h5>
 <p>Sometimes, we would like to get results from a single hand. In that case, is possible to select the area of the video containing the hand of interest as shown in the following images</p>
@@ -478,15 +478,15 @@
 </dl>
 <h3 id="3-select-the-segment-s-of-the-video-for-analysis">3. Select the segment (s) of the video for analysis</h3>
 <dl>
-<dd>When you upload a video, The Hand Tracking Tool will read the audio from the video file and display an audio waveform under the video. This audio waveform can be used to quckly navigate through the video simply by clicking at different time points. The cursor in the audio waveform indicates the current video timestamp. </dd>
+<dd>When you upload a video, The Hand Tracking Tool will read the audio from the video file and display an audio waveform under the video. This audio waveform can be used to quckly navigate through the video by clicking at different time points. The cursor in the audio waveform indicates the current video timestamp. </dd>
 </dl>
-<p><img _="," align="left" alt="Audio waveform" src="../audio_vaweform.png" width="1000" /></p>
+<p><img alt="Audio waveform" src="../audio_vaweform.png" width="1000" /></p>
 <p>You can click and drag in any portion of the audio waveform to select a segment in the video for processing. You can only select up to two segments per video, corresponding to the Finger Taping Test for the left and righ hands. </p>
-<p>The following image demonstrate the selection of two segments in the video, each segments corresponds to activity in each hand </p>
-<p><img _="," align="left" alt="Audio waveform" src="../audio_waveform-selected.png" width="1000" /></p>
+<p>The following image demonstrates the selection of two segments in the video, each segments corresponds to activity in each hand </p>
+<p><img alt="Audio waveform" src="../audio_waveform-selected.png" width="1000" /></p>
 <p>You can adjust the segments using your mouse by draging the borders to the left or right. You can also remove a segment by double click on it.</p>
 <div class="admonition note">
-<p class="admonition-title">Note<p>You don't need to select a video segment for The Hand Tracking Tool to work. However, selecting a video segment will improve the processing speed up the processing and gurantee that the algorithm is used to track the desired movement. </p>
+<p class="admonition-title">Note<p>You don't need to select a video segment for The Hand Tracking Tool to work. However, selecting a video segment will improve the processing speed and gurantee that the algorithm is used to track the desired movement. </p>
 </p>
 </div>
 <h3 id="4-process-the-video">4. Process the video</h3>
@@ -494,7 +494,7 @@
 <dd>Click on <strong>Process</strong> and wait until the algorithm processes all the video frames. The processing can be cancelled at any time; however, if the process is cancelled, the information will be lost. </dd>
 </dl>
 <h2 id="model-selection">Model Selection</h2>
-<p>By default, the Hand Tracking Tool will attent to localize and track only the hands from the video. However, in cases where there is a lot of movement, the algorithm might have difficulties tracking the hands. To address this limitation, The Hand Tracking Tool can do an initial hand localization step before tracking the hand movement. For this, you must select the <em>Full Body</em> option at the bottom of the screen. </p>
+<p>By default, the Hand Tracking Tool will attemp to localize and track only the hands from the video. However, in cases where there is a lot of movement, the algorithm might have difficulties tracking the hands. To address this limitation, The Hand Tracking Tool can do an initial hand localization step before tracking the hand movement. For this, you must select the <em>Full Body</em> option at the bottom of the screen. </p>
 <p>Note that selecting the <em>Full Body</em> option will significantly increase the processing time. This option should be used as last resource.</p>
 
 
