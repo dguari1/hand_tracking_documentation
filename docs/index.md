@@ -5,7 +5,7 @@ hide:
 
 # Welcome 
 
-## Welcome to the [**Hand Tracking Tool**](dguari1.github.io/hand_tracking)
+## Welcome to the [Hand Tracking Tool](https://dguari1.github.io/hand_tracking/))
 
 
 ![Hand Landmarks](114002639-acf37300-987a-11eb-9f98-81fea72d9792.png){ align="left", width="150" }
