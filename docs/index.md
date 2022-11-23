@@ -5,11 +5,11 @@ hide:
 
 # Welcome 
 
-## Welcome to the [Hand Tracking Tool](https://dguari1.github.io/hand_tracking/))
+## Welcome to the **Hand Tracking Tool**
 
 
 ![Hand Landmarks](114002639-acf37300-987a-11eb-9f98-81fea72d9792.png){ align="left", width="150" }
-The Hand Tracking Tool is an open-source software platform for tracking hand movements from videos using modern machine learning approaches. 
+The [Hand Tracking Tool](dguari1.github.io/hand_tracking) is an open-source software platform for tracking hand movements from videos using modern machine learning approaches. 
 
 This code-free software employs deep learning models from [Google's MediaPipe](https://google.github.io/mediapipe/solutions/hands.html) with a custom interface to simplify hand tracking. 
 
