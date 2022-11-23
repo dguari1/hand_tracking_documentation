@@ -7,22 +7,22 @@ hide:
 
 Once you start processing a video, the progress will be shown in the audio waveform. This visual aid will help you to estimate the processing speed and remaining processing time. 
 
-After the video processing in completed, The Hand Tracking Tool will provide two plots showing the distance between thumb and index fingers for the right and left hands. If you analysis includes only one hand, then you will still see both plots but only one will have data. You can download the plots as images by right click on the plot. 
+After the video processing in completed, The Hand Tracking Tool will provide two plots showing the distance between thumb and index fingers for the right and left hands. If your analysis includes only one hand, then you will still see both plots but only one will have data in it. You can download the plots as images by right click on the plot. 
 
-![Results](results.png){ width="500" }
+![Results](results.png){ width="800" }
 
-The signals were low-pass filtered by a 10Hz filter before displaying them. 
+The signals are low-pass filtered by a 10Hz filter. 
 
 ### Peaks and valleys
 
-The Hand Tracking Tool will automatically identify the peaks and valleys on the signal, corresponding to the opening and closing of the fingers. Peaks are identified with a purple marks, and valleys with a green mark. 
+The Hand Tracking Tool will automatically identify the peaks and valleys on the signal, corresponding to the opening and closing of the fingers. Peaks are identified with purple marks, and valleys with green marks. 
 
 
 #### Modifying Peaks and Valleys
 
  - __Peak to Peak Distance__: The peak detection algorithm can be modified to discard peaks that are too close toghether. The default minimum distance is 0.3s, and this value can be modified with the sliding bar on top of the plot. 
 
-- __Remove Peaks or Valleys__: You can select a peak or valey by clicking on it, the selected element will change its color to magenta
+- __Remove Peaks or Valleys__: You can select a peak or valley by clicking on it, the selected element will change its color to magenta
     - To de-select an element, press ++escape++
     - To remove an element, press ++back++
 

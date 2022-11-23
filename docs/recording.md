@@ -8,7 +8,7 @@ You can use your preferred device to record videos. The web app also provides a 
 
 ## Webcam 
 
-The recording tool can be found under the **>>Record** section of the application. This recording tool will allow you to record short videos (maximum 30s) and will stop automatically. You can also stop the recording at any point. Once the recording is completed, a save window will appear where you can selecte the file name and path. Video files will be recorded with extension `.webm`.
+The recording tool can be found under the **>>Record** section of the application. This recording tool will allow you to record short videos (maximum 30s) and will stop automatically. You can also stop the recording at any point. Once the recording is completed, a save window will appear where you can select the file name and path. Video files will be saved with extension `.webm`.
 
 
 ## iPhone

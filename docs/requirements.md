@@ -7,7 +7,7 @@ hide:
 
 The Hand Tracking Tool is a web app limited to use open-source web technologies. For this reason, the application only works with videos encapsulated in ``.mp4`` or ``.webm`` formats, and encoded with ``h.264`` codec. 
 
-If your video is already in ``.mp4`` or ``.webm`` formats, try to uploaded to the web app. If there is no video displayed on the site, then you need to recode your video to ``h.264``.
+If your video is already in ``.mp4`` or ``.webm`` formats, try to upload it to the web app. If there is no video displayed on the site, then you need to recode your video to ``h.264``.
 
 There are many online tools to convert your video to ``h.264`` and save it in ``.mp4`` format. Including:
 
