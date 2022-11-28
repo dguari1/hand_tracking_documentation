@@ -24,11 +24,11 @@ The Hand Tracking Tool will automatically identify the peaks and valleys on the 
 
 - __Remove Peaks or Valleys__: You can select a peak or valley by clicking on it, the selected element will change its color to magenta
     - To de-select an element, press ++escape++
-    - To remove an element, press ++back++
+    - To remove an element, press ++r++
 
 - __Add Peaks__: You can add a new Peaks by pressing and holding ++q++, and clicking in the curve. A new purple mark will be added.
 
-- __Add Valley__: You can add a new Valley by pressing and holding ++a++, and clicking in the curve. A new green mark will be added.
+- __Add Valley__: You can add a new Valley by pressing and holding ++w++, and clicking in the curve. A new green mark will be added.
 
 
 ### Saving Data
