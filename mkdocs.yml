@@ -24,5 +24,6 @@ nav:
   - Recording : 'recording.md'
   - Getting Started : 'start.md'
   - Processing Videos : 'processing.md'
+  - Validation : 'validation.md'
   - Results : 'results.md'
 
